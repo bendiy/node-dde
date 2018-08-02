@@ -9,15 +9,17 @@
     "type": "git",
     "url": "git://github.com/thunder9/node-dde.git"
   },
-  "os": [ "win32" ],
+  "os": [
+    "win32"
+  ],
   "license": "MIT",
-  "dependencies": {
-    "edge": "~0.10.1"
-  },
   "devDependencies": {
     "timelineplayer": "git://github.com/thunder9/timelineplayer.js.git"
   },
   "scripts": {
     "test": "test\\test.bat"
+  },
+  "dependencies": {
+    "edge": "git://github.com/tjanczuk/edge.git"
   }
 }
